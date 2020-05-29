@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 33.33%;
+  height: 33.33%;
+  font-size: 28px;
+}
+
+.win {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+}

@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  font-family: "Chelsea Market", cursive;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.game-board {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
